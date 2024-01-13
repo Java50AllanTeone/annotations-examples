@@ -1,6 +1,6 @@
 package telran.x;
 
-import telran.reflect.SchemaProperties;
+import telran.test.SchemaProperties;
 
 public class SchemaPropertiesAppl {
 
