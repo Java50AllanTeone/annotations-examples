@@ -1,5 +1,6 @@
 package telran.x;
 
+import telran.reflect.BeforeEach;
 import telran.reflect.Test;
 public class Xtest {
 
@@ -19,5 +20,10 @@ public class Xtest {
     @Test
     void f2() {
         System.out.println("test 2");
+    }
+
+    @BeforeEach
+    void f3() {
+        System.out.println("BeforeEach");
     }
 }
